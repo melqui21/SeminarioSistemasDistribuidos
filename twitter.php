@@ -23,11 +23,14 @@
 
 			<div class="panel-body">
 				<div class="row">
-					<div class="col-md-4 animated bounceInLeft">
+					<div class="col-md-12 animated bounceInRight text-center">
 						<img alt="" src="imagenes/twitter1.png">
 					</div>
+				</div>  <!-- Fin row -->
+
+				<div class="row">
 					
-					<div class="col-md-4 animated bounceInLeft">
+					<div class="col-md-6 animated bounceInLeft">
 						<div class="form-group">
 							<label for="opciones">Buscar:</label>
 							<select class="form-control" name="opciones" id="opciones">
@@ -37,7 +40,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-4 animated bounceInLeft">
+					<div class="col-md-6 animated bounceInRight">
 						<div class="form-group">
 							<label for="texto">Texto:</label>
 							<input type="text" class="form-control" name="texto" id="texto">
